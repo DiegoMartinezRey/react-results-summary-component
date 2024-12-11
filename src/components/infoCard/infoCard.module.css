@@ -1,0 +1,71 @@
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	padding: 24px 57px 40px 58px;
+	border-radius: 0 0 32px 32px;
+	background: linear-gradient(to bottom, #7755ff 0%, #6943ff 0%, #2f2ce9 100%);
+	color: white;
+	min-width: 345px;
+}
+@media screen and (width > 768px) {
+	.container {
+		width: 368px;
+		height: 100%;
+		border-radius: 32px;
+		padding: 38px 54px 46px 54px;
+		justify-content: space-between;
+	}
+}
+
+.score {
+	width: 140px;
+	height: 140px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background: linear-gradient(to bottom, #4d21c9 0%, #2521c9 100%);
+}
+@media screen and (width > 768px) {
+	.score {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+.scoreTitle {
+	font-size: 56px;
+}
+@media screen and (width > 768px) {
+	.scoreTitle {
+		font-size: 72px;
+	}
+}
+
+.scoreInterval {
+	font-size: 16px;
+	color: #cac9ff;
+}
+@media screen and (width > 768px) {
+	.scoreInterval {
+		font-size: 18px;
+	}
+}
+
+.infoContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	text-align: center;
+}
+
+.message {
+	font-size: 32px;
+	font-weight: bold;
+}

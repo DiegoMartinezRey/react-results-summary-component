@@ -1,5 +1,7 @@
+import ContainerApp from './components/containerApp/ContainerApp';
+
 const App = () => {
-	return <h1>Curso de React</h1>;
+	return <ContainerApp />;
 };
 
 export default App;
